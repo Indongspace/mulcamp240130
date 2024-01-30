@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 @st.cache_data
 def load_data_aisles():
-    df = pd.read_csv(r'total_data\new_orders.csv')
+    df = pd.read_csv(r'C:\Users\SongInseung\mulcamp240130\total_data\new_orders.csv')
     return df
 
 def main():
